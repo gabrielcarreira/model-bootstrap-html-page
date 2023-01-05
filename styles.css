@@ -1,0 +1,51 @@
+body, section {
+  background-color: #111!important;
+  color: #fff;
+}
+
+#section1 {
+  margin-top: 40px;
+  padding: 0 20px;
+}
+
+#section2 {
+  margin-top: 20px;
+}
+
+.text-blue {
+  color: #189fe1;
+}
+
+.bold-title {
+  font-weight: 800;
+}
+
+#but {
+  background-color: #189fe1;
+}
+
+@media (min-width:768px) {
+
+  #section2 {
+    margin-top: 40px;
+    padding: 0 120px;
+  }
+
+  #section1 {
+    margin-top: 60px;
+    padding: 0 120px;
+  }
+
+  #logo {
+    width: 120px!important;
+    margin-bottom: 60px!important;
+  }
+
+}
+
+#logo {
+  display: block;
+  margin: 0 auto;
+  width: 80px;
+  margin-bottom: 20px;
+}
